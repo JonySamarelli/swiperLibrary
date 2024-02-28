@@ -1,0 +1,57 @@
+.swiper-container {
+  width: 100%;
+  height: 200px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide-item--active {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 30px;
+
+  z-index: 1;
+
+  transform: scale(1.05);
+  box-shadow: 0 0 1.6rem rgba(0, 0, 0, 0.1);
+  border-radius: 1.4rem;
+
+  transition: all 0.3s ease;
+}
+
+.swiper-slide-item--next {
+  z-index: 0;
+
+  transform: scale(0.9);
+
+  transition: all 0.3s ease;
+}
+
+.swiper-slide-item--prev {
+  z-index: 0;
+
+  transform: scale(0.9);
+
+  transition: all 0.3s ease;
+}
+
+.swiper-slide-item--hidden-next {
+  display: none;
+
+  transition: all 0.3s ease;
+}
+
+.swiper-slide-item--hidden-prev {
+  display: none;
+
+  transition: all 0.3s ease;
+}
