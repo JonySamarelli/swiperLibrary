@@ -23,15 +23,6 @@
  *
  * @returns {void}
  *
- *
- * @example
- * import Swiper from 'pet-dex-utilities';
- *
- * When used in a component after Component.call(this, { html, events });
- * const swiper = new Swiper(this.elements);
- *
- * When used in a page
- * const swiper = new Swiper(document.querySelector('.selector'));
  * */
 
 import './index.scss';
